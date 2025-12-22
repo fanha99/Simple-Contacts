@@ -14,3 +14,6 @@ dependencyResolutionManagement {
     }
 }
 include(":app")
+include(":Simple-Commons")
+project(":Simple-Commons").projectDir = file("Simple-Commons/library")
+

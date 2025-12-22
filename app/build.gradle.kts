@@ -95,7 +95,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.simple.tools.commons)
+    implementation(project(":Simple-Commons"))
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.autofittextview)
     implementation(libs.ezvcard)
